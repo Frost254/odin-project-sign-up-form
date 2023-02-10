@@ -1,0 +1,116 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.confirm {
+    margin-top: 20px;
+}
+
+.confirm span:hover {
+    color: lightseagreen
+}
+
+.confirm span:visited {
+    color: darkolivegreen
+}
+.header {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header span {
+    font-style: italic;
+}
+
+.form {
+    width: 100%;
+}
+img {
+    max-height: 100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    background-color: rgb(245, 239, 239);
+    padding: 10px;
+    font-size: 16px;
+    font-size: 1rem;
+    width: 100%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+:focus {
+    outline: 0;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    background-color: #fff;
+}
+
+ input:focus+label,
+ input[required]:valid+label,
+ input:not(:placeholder-shown)+label,
+ textarea:focus+label,
+ textarea:valid+label,
+ textarea:not(:placeholder-shown)+label {
+    display: block;
+}
+
+ input:invalid,
+ textarea:invalid {
+    border: 1px solid #b92326;
+}
+
+ input:focus:invalid,
+ textarea:focus:invalid {
+    background-color: transparent;
+    border: 1px solid #b92326;
+}
+
+ input:invalid+label,
+ textarea:invalid+label {
+    color: #b92326;
+}
+
+ input:invalid+label,
+ textarea:invalid+label {
+    color: #b92326;
+}
+
+ input:focus:invalid+label:after,
+ textarea:focus:invalid+label:after {
+    content: " ("attr(data-help) ")";
+    animation: silo-help 100s;
+}
+
+ input:invalid+label:after,
+ textarea:invalid+label:after {
+    content: " ("attr(data-help) ")";
+}
+
+
+ input:focus:valid,
+ textarea:focus:valid {
+    border: 1px solid #8BC34A;
+    background-color: transparent;
+}
+
+ input:valid+label,
+ textarea:valid+label {
+    color: #8BC34A;
+}
